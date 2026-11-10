@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy policy · The Hub - Izk</title>
+  <meta name="description" content="What The Hub - Izk reads from a connected Google account, where it keeps it, and how to remove it." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <a href="./"><img src="icon-192.png" alt="The Hub - Izk home" /></a>
+      <div>
+        <div class="name">The Hub - Izk</div>
+        <div class="kind">Privacy policy</div>
+      </div>
+    </header>
+
+    <h1>Privacy policy</h1>
+    <p class="lede">Last updated 10 November 2026.</p>
+
+    <div class="card">
+      <p>The Hub - Izk is a private tool with one user, its owner, and it runs on the owner's own computer.
+        It is not offered to the public. The only Google account that connects to it is the owner's.</p>
+    </div>
+
+    <h2>What the app reads</h2>
+    <p>When the owner connects their YouTube account, the app asks for read-only access to YouTube
+      (the <code>youtube.readonly</code> permission). With it, the app reads:</p>
+    <ul>
+      <li>the videos the account has liked,</li>
+      <li>the items of one playlist the owner names,</li>
+      <li>public search results for the owner's projects.</li>
+    </ul>
+    <p>The app cannot upload, edit, delete, rate or comment, and it does not read watch history, messages or
+      any other Google data.</p>
+
+    <h2>What it keeps, and where</h2>
+    <ul>
+      <li>For each video: its id and link, title, channel name, thumbnail, and the owner's own notes.</li>
+      <li>This is stored in a database on the owner's computer. It is not uploaded to any server run by
+        the app, because the app has none.</li>
+      <li>The sign-in token is stored in the macOS Keychain on that computer.</li>
+      <li>Details that came from YouTube are refreshed once they are more than 30 days old, and search results
+        the owner did not keep are reduced to the bare link after 30 days.</li>
+    </ul>
+
+    <h2>Who it is shared with</h2>
+    <p>Nobody. The data is not sold, not used for advertising, and not given to anyone else.</p>
+    <p>There is one case where a video's link leaves the computer: when the owner asks for an analysis of a
+      reference video, the public link of that video is sent to Google's Gemini API to produce the analysis.</p>
+
+    <h2>Removing access and data</h2>
+    <ul>
+      <li>The owner can disconnect YouTube inside the app, which revokes the sign-in token at Google and
+        deletes it from the computer.</li>
+      <li>Access can also be removed at any time from the Google Account page for
+        <a href="https://myaccount.google.com/connections">third-party connections</a>.</li>
+      <li>Stored video details exist only on the owner's computer, where the owner can remove them at any
+        time.</li>
+    </ul>
+
+    <h2>Google and YouTube terms</h2>
+    <p>The app uses YouTube API Services. Using the YouTube connection means agreeing to the
+      <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is
+      described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+    <p>The app's use of information received from Google APIs follows the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User
+      Data Policy</a>, including its Limited Use requirements.</p>
+
+    <h2>This website</h2>
+    <p>This site is two static pages hosted on GitHub Pages. It sets no cookies and runs no analytics. GitHub,
+      as the host, may log visits as described in its own privacy statement.</p>
+
+    <h2>Contact</h2>
+    <p>Questions can be sent by opening an issue at
+      <a href="https://github.com/Hadza/the-hub/issues">github.com/Hadza/the-hub</a>.</p>
+
+    <footer>
+      <a href="./">Home</a>
+      <a href="https://github.com/Hadza/the-hub/issues">Contact</a>
+    </footer>
+  </main>
+</body>
+</html>
